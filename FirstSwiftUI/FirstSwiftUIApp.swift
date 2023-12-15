@@ -14,7 +14,8 @@ struct FirstSwiftUIApp: App {
             //ContentView()
             //OtherView()
             //CYaPassView()
-            FailView()
+            //FailView()
+            Sha256View()
             //ChatGPTGen()
         }
     }

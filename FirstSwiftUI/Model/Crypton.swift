@@ -30,9 +30,11 @@ func processData(targetData: Data, key: Data, iv: Data, isEncrypt: Bool = true) 
     
     var encryptDecrypt :Int = 0
     if isEncrypt{
+        // the int value of kCCEncrypt is 0
         encryptDecrypt = kCCEncrypt
     }
     else{
+        // the int value of kCCDecrypt is 1
         encryptDecrypt = kCCDecrypt
     }
     
